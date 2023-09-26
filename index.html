@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pagination</title>
+</head>
+
+<body>
+    <div class="center-container">
+        <h3>Search:</h3>
+        <form action="search" id="search-form" class="search-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title">
+
+            <label for="type">Type:</label>
+            <select id="type">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+
+        <h3 class="films-title" id="films-title">Films:</h3>
+        <div class="films-container" id="films-container"></div>
+
+        <div class="pagination-nav" id="pagination-nav"></div>
+    </div>
+
+    <script src="shared.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
