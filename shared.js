@@ -6,7 +6,7 @@ function getDataFromServer(url, page, title, type, id) {
         if (id) url += `&i=${id}`;
         else if (page && title) url += `&s=${title}&page=${page}`;
         else reject();
-
+        
         if (type) url += `&type=${type}`;
         let response = await fetch(url);
         resolve(await response.json());

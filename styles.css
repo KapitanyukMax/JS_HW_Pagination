@@ -37,7 +37,7 @@ body .center-container .search-form .search-btn {
   grid-column: span 2;
 }
 body .center-container .films-title {
-  visibility: hidden;
+  display: none;
   margin: 30px;
 }
 body .center-container .films-container {
@@ -107,7 +107,7 @@ body .center-container .films-container .details-container .grid-container h4, b
   margin: 0;
 }
 body .center-container .pagination-nav {
-  visibility: hidden;
+  display: none;
 }
 body .center-container .pagination-nav button {
   margin: 0;

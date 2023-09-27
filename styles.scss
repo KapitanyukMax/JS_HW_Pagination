@@ -55,7 +55,7 @@ body {
         }
 
         .films-title {
-            visibility: hidden;
+            display: none;
             margin: 30px;
         }
 
@@ -126,7 +126,7 @@ body {
         }
 
         .pagination-nav {
-            visibility: hidden;
+            display: none;
             
             button {
                 margin: 0;
